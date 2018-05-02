@@ -1,0 +1,13 @@
+(define-riff cool-riff
+  (C4 0.125)
+  (C4 0.125)
+  (E5 0.125)
+  (F5 0.125)
+  (REST 0.125)
+  (A5 0.125)
+  (A5 0.125))
+
+(forever
+ (if (shake 15)
+  (play-riff cool-riff)
+  (set-lights white)))
