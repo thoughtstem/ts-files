@@ -3,7 +3,10 @@
 (define (bulb x y z)
   (list
    (sphere
-    (position x y z))
+    (position x y z)
+    (material (hash
+               "emissive" "eggshell"
+               "emissiveIntensity" ".5")))
    
    (light
     (position (+ x 3) y z)
@@ -24,7 +27,6 @@
     (position x y (- z 3))
     (type "point")
     (intensity .5))))
-
 
 (define light-scene
   (scene
@@ -50,6 +52,6 @@
     (scale 50 50 50)
     (color 100 100 100))
 
-   (sky (color 50 100 255))))
+   (sky (color 0 0 50))))
 
 (send-to-browser light-scene)
