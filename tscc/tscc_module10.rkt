@@ -12,9 +12,7 @@
   (mainImage.resize 0 600)
   (background 0)
   (rectMode CENTER)
-  (colorMode HSB 255 255 255)
-
-  #;(surface.setSmall mainImage.width mainImage.height))
+  (colorMode HSB 255 255 255))
 
 (define (draw)
   (if (= displayMode 0)
@@ -31,7 +29,7 @@
 
         (fill c 25)
 
-        (stroke (* mouseX 255) 255 255 20)
+        (stroke (* mouseX (/ 255 width)) 255 255 20)
         (strokeWeight 1)
 
         (if (= shapeMode 0)
@@ -39,6 +37,7 @@
                      (/ (* mouseY 40) height))
             (rect x y (/ (* mouseY 40) height)
                   (/ (* mouseY 40) height)))
+        (drawCircles (- n 1))
         )))
 
 (define (keyPressed)

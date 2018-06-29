@@ -1,7 +1,7 @@
 #reader(lib"read.ss""wxme")WXME0108 ## 
 #|
    This file uses the GRacket editor format.
-   Open this file in DrRacket version 6.10 or later to read it.
+   Open this file in DrRacket version 6.11 or later to read it.
 
    Most likely, it was created by saving a program in DrRacket,
    and it probably contains a program with non-text elements
@@ -57,12 +57,12 @@
 1 0 10 #"text-box%\0"
 1 0 32 #"(lib \"text-snipclass.ss\" \"xml\")\0"
 1 0 1 6 #"wxloc\0"
-          0 0 86 0 1 #"\0"
+          0 0 129 0 1 #"\0"
 0 75 1 #"\0"
 0 10 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 0 9
 #"Standard\0"
 0 75 12 #"Courier New\0"
-0 11 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 2 1
+0 13 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 2 1
 #"\0"
 0 -1 1 #"\0"
 1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 -1 -1 2 24
@@ -206,10 +206,22 @@
 1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 38
 #"plt:module-language:test-coverage-off\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 1 0 0 0 0 0 0 255 165 0 0 0 0 -1 -1 0 1
+1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 1 0 0 0 0 0 0 255 165 0 0 0 0 -1 -1 4 1
 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
+-1 4 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
+-1 4 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 100 0 0 0 0 -1
+-1 0 1 #"\0"
 0 75 12 #"Courier New\0"
-0.0 11 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+0.0 16 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
 255 255 1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 0 0 0 0
@@ -222,99 +234,216 @@
 0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 175 0 0
-0 -1 -1 4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 4 1 #"\0"
+0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 200 0 0 0 0
+0 -1 -1 0 1 #"\0"
+0 75 12 #"Courier New\0"
+0.0 13 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 1 -1 0 1 #"\0"
+0 75 12 #"Courier New\0"
+0.0 10 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 1 -1 4 1 #"\0"
+0 71 1 #"\0"
+1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 255 0 0 0 0
+0 -1 -1 2 1 #"\0"
+0 70 1 #"\0"
+1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 148 0 211 0
+0 0 -1 -1 2 1 #"\0"
+0 70 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
 0 -1 -1 4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
-0 -1 -1 4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 100 0 0 0
-0 -1 -1 4 32 #"widget.rkt::browser-text% basic\0"
+0 -1 1 #"\0"
+1.0 0 92 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 0 -1 -1 0 1 #"\0"
+0 75 1 #"\0"
+0.0 12 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 1 -1 0 1 #"\0"
+0 75 10 #"Monospace\0"
+0.0 12 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 194 116 31 0
+0 0 -1 -1 2 41 #"profj:syntax-colors:scheme:block-comment\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 194 116 31 0
+0 0 -1 -1 2 35 #"profj:syntax-colors:scheme:keyword\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 139 0 139 0
+0 0 -1 -1 2 37 #"profj:syntax-colors:scheme:prim-type\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 139 0 139 0
+0 0 -1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 38 38 128 0
+0 0 -1 -1 2 38 #"profj:syntax-colors:scheme:identifier\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 38 38 128 0
+0 0 -1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 34 139 34 0
+0 0 -1 -1 2 34 #"profj:syntax-colors:scheme:string\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 34 139 34 0
+0 0 -1 -1 2 35 #"profj:syntax-colors:scheme:literal\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 34 139 34 0
+0 0 -1 -1 2 35 #"profj:syntax-colors:scheme:comment\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 194 116 31 0
+0 0 -1 -1 2 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 255 0 0 0 0
+0 -1 -1 2 33 #"profj:syntax-colors:scheme:error\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 255 0 0 0 0
+0 -1 -1 2 35 #"profj:syntax-colors:scheme:default\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 2 37 #"profj:syntax-colors:scheme:uncovered\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 2 35 #"profj:syntax-colors:scheme:covered\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 139 0 139 0
+0 0 -1 -1 4 32 #"widget.rkt::browser-text% basic\0"
 0 70 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
 -1 -1 4 59
 #"macro-debugger/syntax-browser/properties color-text% basic\0"
 0 70 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 61 1 #"\0"
+-1 -1 86 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 190 190 190 0 0 0 -1 -1 4
-1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 190 190 190
+0 0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 255 0 0 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 255 0 0 0 0
+0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 255 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
+0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 107 142 35 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 107 142 35 0
+0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 0 100 0 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 100 0 0 0
+0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 139 0 0 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 139 0 0 0 0
+0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 100 149 237 0 0 0 -1 -1 4
-1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 100 149 237
+0 0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 65 105 225 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 65 105 225 0
+0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 70 130 180 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 70 130 180 0
+0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 47 79 79 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 47 79 79 0 0
+0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 139 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 139 0 0
+0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 75 0 130 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 75 0 130 0 0
+0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 160 32 240 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 160 32 240 0
+0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 255 165 0 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 255 165 0 0
+0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 250 128 114 0 0 0 -1 -1 4
-1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 250 128 114
+0 0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 184 134 11 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 184 134 11 0
+0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 128 128 0 0 0 0 -1 -1 4 1
-#"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 128 128 0 0
+0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 169 169 169 0 0 0 -1 -1 4
-1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 169 169 169
+0 0 0 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 0 0 0 0 -1 -1
-4 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 0 0 0 0
+-1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 255 228 225 -1 -1 4
-1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+228 225 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 224 255 255 -1 -1 4
-1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 224
+255 255 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0 0 0 0 0 0 255 0 0 224 255 255 -1 -1
-2 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 255 0 0 224
+255 255 -1 -1 4 1 #"\0"
 0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 200 0 0 0 0 0 -1 -1
-          0 11 9          73 21           0 0           0 11 0 14 3 4
-#"Type"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 255 224
+255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 107 142 35
+224 255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 100 0 224
+255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 139 0 0 224
+255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 100 149 237
+224 255 255 -1 -1 85 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 255 0 0 0 0
+0 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 169 169 169
+224 255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 255 0 0 255
+228 225 -1 -1 86 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 92 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
+0 -1 -1 86 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
+0 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 90 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 255 0 0 255
+255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 90 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 90 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 255 0 0 224
+255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 90 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 224
+255 255 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 0 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 0 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 92 -1 -1 -1 -1 -1 1 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 0 -1 -1 4 1 #"\0"
+0 -1 1 #"\0"
+1.0 0 90 -1 -1 -1 -1 -1 0 0 0 0 0 1 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+228 225 -1 -1 0 1 #"\0"
+0 75 12 #"Courier New\0"
+0.0 11 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 1 -1           0 11 9          73 21           0 0           0
+11 0 14 3 4 #"Type"
 0 0 24 3 1 #" "
 0 0 14 3 3 #"the"
 0 0 24 3 1 #" "
@@ -513,160 +642,80 @@
 0 0 14 3 5 #"this:"
 0           0 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 15           4 21 10279
+0 15           4 21 4884
 (
- #"(299.56875 80.60000000000001 4.43193359375 13.76806640625 ((do-set-p"
+ #"(252.76113281250002 39.0 4.9994140625000005 13.2005859375 ((do-set-p"
  #"en! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255 255 2"
  #"55 1.0) solid #f #f #f)) (set-font (12 #f default normal normal #f d"
  #"efault #f aligned)) (set-smoothing unsmoothed) (set-text-mode transp"
  #"arent) (set-alpha 1.0) (set-clipping-region #f) (set-background (255"
  #" 255 255 1.0)) (set-text-background (255 255 255 1.0)) (set-text-for"
  #"eground (0 0 0 1.0)) (set-smoothing aligned) (set-clipping-region (#"
- #"t (((((0.0 . 0.0) (299.56875 . 0.0) (299.56875 . 80.60000000000001) "
- #"(0.0 . 80.60000000000001)))) . any))) (transform #(1.3 0 0 1.3 0 0))"
- #" (do-set-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-set-brus"
- #"h! ((132 60 36 1.0) solid #f #f #f)) (set-text-foreground (132 60 36"
- #" 1.0)) (set-font (12 #f modern normal bold #f default #t unaligned))"
- #" (draw-text \"(\" 0 0.0 #f 0 0) (set-font (12 #f default normal norm"
- #"al #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round r"
- #"ound #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #f)) (set-te"
- #"xt-foreground (0 0 0 1.0)) (do-set-pen! ((36 36 140 1.0) 1 solid rou"
- #"nd round #f)) (do-set-brush! ((36 36 140 1.0) solid #f #f #f)) (set-"
- #"text-foreground (36 36 140 1.0)) (set-font (12 #f modern normal bold"
- #" #f default #t unaligned)) (draw-text \"forever\" 7.201171875 0.0 #f"
- #" 0 0) (set-font (12 #f default normal normal #f default #f aligned))"
- #" (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ("
- #"(255 255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0))"
- #" (do-set-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-set-brus"
- #"h! ((132 60 36 1.0) solid #f #f #f)) (set-text-foreground (132 60 36"
- #" 1.0)) (set-font (12 #f modern normal bold #f default #t unaligned))"
- #" (draw-text \"(\" 7.201171875 16.0 #f 0 0) (set-font (12 #f default "
- #"normal normal #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 so"
- #"lid round round #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #"
- #"f)) (set-text-foreground (0 0 0 1.0)) (do-set-pen! ((0 0 0 1.0) 1 so"
- #"lid round round #f)) (do-set-brush! ((0 0 0 1.0) solid #f #f #f)) (s"
- #"et-text-foreground (0 0 0 1.0)) (set-font (12 #f modern normal bold "
- #"#f default #t unaligned)) (draw-text \"if\" 14.40234375 16.0 #f 0 0)"
- #" (set-font (12 #f default normal normal #f default #f aligned)) (do-"
- #"set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255 "
- #"255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0)) (set"
+ #"t (((((0.0 . 0.0) (252.76113281250002 . 0.0) (252.76113281250002 . 3"
+ #"9.0) (0.0 . 39.0)))) . any))) (transform #(1.3 0 0 1.3 0 0)) (do-set"
+ #"-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-set-brush! ((132"
+ #" 60 36 1.0) solid #f #f #f)) (set-text-foreground (132 60 36 1.0)) ("
+ #"set-font (12 #f modern normal bold #f default #t unaligned)) (draw-t"
+ #"ext \"(\" 0 0.0 #f 0 0) (set-font (12 #f default normal normal #f de"
+ #"fault #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)"
+ #") (do-set-brush! ((255 255 255 1.0) solid #f #f #f)) (set-text-foreg"
+ #"round (0 0 0 1.0)) (do-set-pen! ((36 36 140 1.0) 1 solid round round"
+ #" #f)) (do-set-brush! ((36 36 140 1.0) solid #f #f #f)) (set-text-for"
+ #"eground (36 36 140 1.0)) (set-font (12 #f modern normal bold #f defa"
+ #"ult #t unaligned)) (draw-text \"forever\" 7.201171875 0.0 #f 0 0) (s"
+ #"et-font (12 #f default normal normal #f default #f aligned)) (do-set"
+ #"-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255 255"
+ #" 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0)) (do-set"
+ #"-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-set-brush! ((132"
+ #" 60 36 1.0) solid #f #f #f)) (set-text-foreground (132 60 36 1.0)) ("
+ #"set-font (12 #f modern normal bold #f default #t unaligned)) (draw-t"
+ #"ext \"(\" 7.201171875 16.0 #f 0 0) (set-font (12 #f default normal n"
+ #"ormal #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid roun"
+ #"d round #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #f)) (set"
+ #"-text-foreground (0 0 0 1.0)) (do-set-pen! ((36 36 140 1.0) 1 solid "
+ #"round round #f)) (do-set-brush! ((36 36 140 1.0) solid #f #f #f)) (s"
+ #"et-text-foreground (36 36 140 1.0)) (set-font (12 #f modern normal b"
+ #"old #f default #t unaligned)) (draw-text \"show-volume\" 14.40234375"
+ #" 16.0 #f 0 0) (set-font (12 #f default normal normal #f default #f a"
+ #"ligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-"
+ #"brush! ((255 255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0"
+ #" 0 1.0)) (set-font (12 #f modern normal bold #f default #t unaligned"
+ #")) (draw-text \" \" 93.615234375 16.0 #f 0 0) (set-font (12 #f defau"
+ #"lt normal normal #f default #f aligned)) (do-set-pen! ((132 60 36 1."
+ #"0) 1 solid round round #f)) (do-set-brush! ((132 60 36 1.0) solid #f"
+ #" #f #f)) (set-text-foreground (132 60 36 1.0)) (set-font (12 #f mode"
+ #"rn normal bold #f default #t unaligned)) (draw-text \"(\" 100.816406"
+ #"25 16.0 #f 0 0) (set-font (12 #f default normal normal #f default #f"
+ #" aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-se"
+ #"t-brush! ((255 255 255 1.0) solid #f #f #f)) (set-text-foreground (0"
+ #" 0 0 1.0)) (do-set-pen! ((36 36 140 1.0) 1 solid round round #f)) (d"
+ #"o-set-brush! ((36 36 140 1.0) solid #f #f #f)) (set-text-foreground "
+ #"(36 36 140 1.0)) (set-font (12 #f modern normal bold #f default #t u"
+ #"naligned)) (draw-text \"mic-level\" 108.017578125 16.0 #f 0 0) (set-"
+ #"font (12 #f default normal normal #f default #f aligned)) (do-set-pe"
+ #"n! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255 255 25"
+ #"5 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0)) (do-set-pe"
+ #"n! ((132 60 36 1.0) 1 solid round round #f)) (do-set-brush! ((132 60"
+ #" 36 1.0) solid #f #f #f)) (set-text-foreground (132 60 36 1.0)) (set"
  #"-font (12 #f modern normal bold #f default #t unaligned)) (draw-text"
- #" \" \" 28.8046875 16.0 #f 0 0) (set-font (12 #f default normal norma"
- #"l #f default #f aligned)) (do-set-pen! ((132 60 36 1.0) 1 solid roun"
+ #" \")\" 172.828125 16.0 #f 0 0) (set-font (12 #f default normal norma"
+ #"l #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round ro"
+ #"und #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #f)) (set-tex"
+ #"t-foreground (0 0 0 1.0)) (do-set-pen! ((132 60 36 1.0) 1 solid roun"
  #"d round #f)) (do-set-brush! ((132 60 36 1.0) solid #f #f #f)) (set-t"
  #"ext-foreground (132 60 36 1.0)) (set-font (12 #f modern normal bold "
- #"#f default #t unaligned)) (draw-text \"(\" 36.005859375 16.0 #f 0 0)"
- #" (set-font (12 #f default normal normal #f default #f aligned)) (do-"
- #"set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255 "
- #"255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0)) (do-"
- #"set-pen! ((36 36 140 1.0) 1 solid round round #f)) (do-set-brush! (("
- #"36 36 140 1.0) solid #f #f #f)) (set-text-foreground (36 36 140 1.0)"
- #") (set-font (12 #f modern normal bold #f default #t unaligned)) (dra"
- #"w-text \"shake\" 43.20703125 16.0 #f 0 0) (set-font (12 #f default n"
- #"ormal normal #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 sol"
- #"id round round #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #f"
- #")) (set-text-foreground (0 0 0 1.0)) (set-font (12 #f modern normal "
- #"bold #f default #t unaligned)) (draw-text \" \" 79.212890625 16.0 #f"
- #" 0 0) (set-font (12 #f default normal normal #f default #f aligned))"
- #" (do-set-pen! ((51 135 39 1.0) 1 solid round round #f)) (do-set-brus"
- #"h! ((51 135 39 1.0) solid #f #f #f)) (set-text-foreground (51 135 39"
- #" 1.0)) (set-font (12 #f modern normal bold #f default #t unaligned))"
- #" (draw-text \"15\" 86.4140625 16.0 #f 0 0) (set-font (12 #f default "
- #"normal normal #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 so"
- #"lid round round #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #"
- #"f)) (set-text-foreground (0 0 0 1.0)) (do-set-pen! ((132 60 36 1.0) "
- #"1 solid round round #f)) (do-set-brush! ((132 60 36 1.0) solid #f #f"
- #" #f)) (set-text-foreground (132 60 36 1.0)) (set-font (12 #f modern "
- #"normal bold #f default #t unaligned)) (draw-text \")\" 100.81640625 "
- #"16.0 #f 0 0) (set-font (12 #f default normal normal #f default #f al"
- #"igned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-b"
- #"rush! ((255 255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 "
- #"0 1.0)) (do-set-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-s"
- #"et-brush! ((132 60 36 1.0) solid #f #f #f)) (set-text-foreground (13"
- #"2 60 36 1.0)) (set-font (12 #f modern normal bold #f default #t unal"
- #"igned)) (draw-text \"(\" 36.005859375 32.0 #f 0 0) (set-font (12 #f "
- #"default normal normal #f default #f aligned)) (do-set-pen! ((0 0 0 1"
- #".0) 1 solid round round #f)) (do-set-brush! ((255 255 255 1.0) solid"
- #" #f #f #f)) (set-text-foreground (0 0 0 1.0)) (do-set-pen! ((36 36 1"
- #"40 1.0) 1 solid round round #f)) (do-set-brush! ((36 36 140 1.0) sol"
- #"id #f #f #f)) (set-text-foreground (36 36 140 1.0)) (set-font (12 #f"
- #" modern normal bold #f default #t unaligned)) (draw-text \"play-riff"
- #"\" 43.20703125 32.0 #f 0 0) (set-font (12 #f default normal normal #"
- #"f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round"
- #" #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #f)) (set-text-f"
- #"oreground (0 0 0 1.0)) (set-font (12 #f modern normal bold #f defaul"
- #"t #t unaligned)) (draw-text \" \" 108.017578125 32.0 #f 0 0) (set-fo"
- #"nt (12 #f default normal normal #f default #f aligned)) (do-set-pen!"
- #" ((36 36 140 1.0) 1 solid round round #f)) (do-set-brush! ((36 36 14"
- #"0 1.0) solid #f #f #f)) (set-text-foreground (36 36 140 1.0)) (set-f"
- #"ont (12 #f modern normal bold #f d"
- #"efault #t unaligned)) (draw-text \"cool-riff\" 115.21875 32.0 #f 0 0"
+ #"#f default #t unaligned)) (draw-text \")\" 180.029296875 16.0 #f 0 0"
  #") (set-font (12 #f default normal normal #f default #f aligned)) (do"
  #"-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255"
  #" 255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0)) (do"
  #"-set-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-set-brush! ("
  #"(132 60 36 1.0) solid #f #f #f)) (set-text-foreground (132 60 36 1.0"
  #")) (set-font (12 #f modern normal bold #f default #t unaligned)) (dr"
- #"aw-text \")\" 180.029296875 32.0 #f 0 0) (set-font (12 #f default no"
- #"rmal normal #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 soli"
- #"d round round #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #f)"
- #") (set-text-foreground (0 0 0 1.0)) (do-set-pen! ((132 60 36 1.0) 1 "
- #"solid round round #f)) (do-set-brush! ((132 60 36 1.0) solid #f #f #"
- #"f)) (set-text-foreground (132 60 36 1.0)) (set-font (12 #f modern no"
- #"rmal bold #f default #t unaligned)) (draw-text \"(\" 36.005859375 48"
- #".0 #f 0 0) (set-font (12 #f default normal normal #f default #f alig"
- #"ned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-bru"
- #"sh! ((255 255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 "
- #"1.0)) (do-set-pen! ((36 36 140 1.0) 1 solid round round #f)) (do-set"
- #"-brush! ((36 36 140 1.0) solid #f #f #f)) (set-text-foreground (36 3"
- #"6 140 1.0)) (set-font (12 #f modern normal bold #f default #t unalig"
- #"ned)) (draw-text \"show-volume\" 43.20703125 48.0 #f 0 0) (set-font "
- #"(12 #f default normal normal #f default #f aligned)) (do-set-pen! (("
- #"0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255 255 255 1.0"
- #") solid #f #f #f)) (set-text-foreground (0 0 0 1.0)) (set-font (12 #"
- #"f modern normal bold #f default #t unaligned)) (draw-text \" \" 122."
- #"419921875 48.0 #f 0 0) (set-font (12 #f default normal normal #f def"
- #"ault #f aligned)) (do-set-pen! ((132 60 36 1.0) 1 solid round round "
- #"#f)) (do-set-brush! ((132 60 36 1.0) solid #f #f #f)) (set-text-fore"
- #"ground (132 60 36 1.0)) (set-font (12 #f modern normal bold #f defau"
- #"lt #t unaligned)) (draw-text \"(\" 129.62109375 48.0 #f 0 0) (set-fo"
- #"nt (12 #f default normal normal #f default #f aligned)) (do-set-pen!"
- #" ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ((255 255 255 "
- #"1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0)) (do-set-pen!"
- #" ((36 36 140 1.0) 1 solid round round #f)) (do-set-brush! ((36 36 14"
- #"0 1.0) solid #f #f #f)) (set-text-foreground (36 36 140 1.0)) (set-f"
- #"ont (12 #f modern normal bold #f d"
- #"efault #t unaligned)) (draw-text \"mic-level\" 136.822265625 48.0 #f"
- #" 0 0) (set-font (12 #f default normal normal #f default #f aligned))"
- #" (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-brush! ("
- #"(255 255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0 0 1.0))"
- #" (do-set-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-set-brus"
- #"h! ((132 60 36 1.0) solid #f #f #f)) (set-text-foreground (132 60 36"
- #" 1.0)) (set-font (12 #f modern normal bold #f default #t unaligned))"
- #" (draw-text \")\" 201.6328125 48.0 #f 0 0) (set-font (12 #f default "
- #"normal normal #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 so"
- #"lid round round #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #"
- #"f)) (set-text-foreground (0 0 0 1.0)) (do-set-pen! ((132 60 36 1.0) "
- #"1 solid round round #f)) (do-set-brush! ((132 60 36 1.0) solid #f #f"
- #" #f)) (set-text-foreground (132 60 36 1.0)) (set-font (12 #f modern "
- #"normal bold #f default #t unaligned)) (draw-text \")\" 208.833984375"
- #" 48.0 #f 0 0) (set-font (12 #f default normal normal #f default #f a"
- #"ligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round #f)) (do-set-"
- #"brush! ((255 255 255 1.0) solid #f #f #f)) (set-text-foreground (0 0"
- #" 0 1.0)) (do-set-pen! ((132 60 36 1.0) 1 solid round round #f)) (do-"
- #"set-brush! ((132 60 36 1.0) solid #f #f #f)) (set-text-foreground (1"
- #"32 60 36 1.0)) (set-font (12 #f modern normal bold #f default #t una"
- #"ligned)) (draw-text \")\" 216.03515625 48.0 #f 0 0) (set-font (12 #f"
- #" default normal normal #f default #f aligned)) (do-set-pen! ((0 0 0 "
- #"1.0) 1 solid round round #f)) (do-set-brush! ((255 255 255 1.0) soli"
- #"d #f #f #f)) (set-text-foreground (0 0 0 1.0)) (do-set-pen! ((132 60"
- #" 36 1.0) 1 solid round round #f)) (do-set-brush! ((132 60 36 1.0) so"
- #"lid #f #f #f)) (set-text-foreground (132 60 36 1.0)) (set-font (12 #"
- #"f modern normal bold #f default #t unaligned)) (draw-text \")\" 223."
- #"236328125 48.0 #f 0 0) (set-font (12 #f default normal normal #f def"
- #"ault #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid round round #f))"
- #" (do-set-brush! ((255 255 255 1.0) solid #f #f #f)) (set-text-foregr"
- #"ound (0 0 0 1.0)) (set-initial-matrix #(1.0 0.0 0.0 1.0 0.0 0.0)) (s"
- #"et-origin 0.0 0.0) (set-scale 1.0 1.0) (set-rotation 0.0)))"
+ #"aw-text \")\" 187.23046875 16.0 #f 0 0) (set-font (12 #f default nor"
+ #"mal normal #f default #f aligned)) (do-set-pen! ((0 0 0 1.0) 1 solid"
+ #" round round #f)) (do-set-brush! ((255 255 255 1.0) solid #f #f #f))"
+ #" (set-text-foreground (0 0 0 1.0)) (set-initial-matrix #(1.0 0.0 0.0"
+ #" 1.0 0.0 0.0)) (set-origin 0.0 0.0) (set-scale 1.0 1.0) (set-rotatio"
+ #"n 0.0)))"
 ) 0 0 24 29 1 #"\n"
 0           0
